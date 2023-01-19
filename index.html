@@ -1,9 +1,297 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abijah Williams</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="AbijahWilliams.css">
+
+</head>
 <body>
-  <h1>Abijah Williams</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    
+<!--header section starts here-->
+
+<header>
+    
+    <div class="user">
+        <img src="MediaRes/AJ1.jpeg" alt=""  width="30" height="30">
+        <h3 class="name"><strong>WILLIAMS</strong>, Abijah Jehovahfego</h3>
+        <p class="post">Software Engineer</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--header section ends here-->
+
+<div id="menu" class="bi bi-list"></div>
+
+<!--home section starts here-->
+
+<section class="home" id="home">
+    <h3>HI THERE!</h3>
+    <h1>I'M <span>WILLIAMS Abijah</span></h1>
+    <p>A self-taught Software Engineer who loves learning, has worked in at least two different 
+        industries and is seeking to find the opportunity to use the experience gathered to work in a 
+        fun and challenging working environment that will encourage him to improve and 
+        learn new and necessary skills as well as be motivated by the company to do his 
+        best for the sake of helping himself and the company advancement in the Software 
+        Engineering industry.</p>
+    <a href="#aboutme"><button class="btn"> About Me <i class="bi bi-person-fill"></i></button></a>
+</section>
+
+<!--home section ends--> 
+
+<!--about me section starts here-->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me</h1>
+
+    <div class="row">
+
+        <div class="info">
+            <h3><span> Name: </span> WILLIAMS Abijah Jehovahfego</h3>
+            <h3><span> Age: </span> 28</h3>
+            <h3><span> Qualification: </span> Self-taught; Software Engineer (in view)</h3>
+            <h3><span> Post: </span> Front-End Developer</h3>
+            <h3><span> Language: </span> English</h3>
+            <a href="#"><button class="btn"> Download CV <i class="bi bi-download"></i></button></a>
+        </div>
+        
+        <div class="counter">
+
+            <div class="box">
+                <span>1+</span>
+                <h3>Years of Programming experience</h3>
+            </div>
+
+            <div class="box">
+                <span>10+</span>
+                <h3>Project Completed</h3>
+            </div>
+
+            <div class="box">
+                <span>10+</span>
+                <h3>Happy <br>Clients</h3>
+            </div>
+
+            <!--<div class="box">
+                <span>12+</span>
+                <h3>Awards Won</h3>
+            </div>-->
+        
+        </div>
+    
+    </div>
+
+</section>
+
+<!--about me section ends here-->
+
+<!--education section starts here-->
+
+<section class="education" id="education">
+
+    <h1 class="heading"> My <span>education</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span>2021</span>
+            <h3>BSc Information Technology (University of Liepaja, Latvia)</h3>
+            <p>This program afforded me the opportunity to learn vital skills and have 
+                the necessary exposure to perform as a Software Engineer. It was supposed
+                to be a four year program, however due to the Russian - Ukrainian War and
+                tensions rising in the area, I decided to seek admission to another school
+                in a safer environment.
+                </p>
+        </div>
+
+
+        <div class="box">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span>2019</span>
+            <h3>P.G.D.E (University of Ilorin, Nigeria)</h3>
+            <p>Attained a Post Graduate Diploma in Education. This program spawned me on to learn to develop 
+                Technology to solve educational problems in my home community, as the gap in the use of 
+                technology amongst facilitators is still wide.    </p>
+        </div>
+
+        <div class="box">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span>2015</span>
+            <h3>B.A Linguistics (University of Ilorin, Nigeria)</h3>
+            <p>Attained a first degree in Linguistics and Nigerian Languages. This program provided the 
+                needed knowledge to understand any language structure and syntax.</p>
+        </div>
+    
+        <div class="box">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span>2010</span>
+            <h3>West African Senior School Certificate (K.C.E Model Secondary School, Ilorin, Kwara State)</h3>
+            <p>Attained a High School Certificate with good grades in Mathematics and English.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!--education section ends here-->
+
+<!--Skill section starts here-->
+
+<section class="skills" id="skills">
+
+    <h1 class="heading"> My <span> Skills </span></h1>
+
+    <div class="skillwrapper">
+
+        <div class="skillcontainer">
+
+            <h2>Animated Skills</h2>
+
+            <!--First Skill Bar starts here-->
+            <div class="skillbar">
+                <div class="details">
+                    <span>HTML</span>
+                    <span id="span2" style="float:right; display:inline; ">95%</span>
+                </div>
+                <div class="bar">
+                    <div id="html-bar"></div>
+                </div>
+            </div>
+            <!--First Skill Bar ends here-->
+
+            <!--Second Skill Bar starts here-->
+            <div class="skillbar">
+                <div class="details">
+                    <span>CSS</span>
+                    <span id="span2" style="float:right; display:inline; ">80%</span>
+                </div>
+                <div class="bar">
+                    <div id="css-bar"></div>
+                </div>
+            </div>
+            <!--Second Skill bar ends here-->
+
+            <!--Third Skill Bar starts here-->
+            <div class="skillbar">
+                <div class="details">
+                    <span>JAVASCRIPT</span>
+                    <span id="span2" style="float:right; display:inline; ">70%</span>
+                </div>
+                <div class="bar">
+                    <div id="js-bar"></div>
+                </div>
+            </div>
+            <!--Third Skill bar ends here-->
+
+            <!--Fourth Skill Bar starts here-->
+            <div class="skillbar">
+                <div class="details">
+                    <span>JQuery</span>
+                    <span id="span2" style="float:right; display:inline; ">50%</span>
+                </div>
+                <div class="bar">
+                    <div id="jquery-bar"></div>
+                </div>
+            </div>
+            <!--Fourth Skill bar ends here-->
+
+            <!--Fifth Skill Bar starts here-->
+            <div class="skillbar">
+                <div class="details">
+                    <span>Kotlin</span>
+                    <span id="span2" style="float:right; display:inline; ">75%</span>
+                </div>
+                <div class="bar">
+                    <div id="kt-bar"></div>
+                </div>
+            </div>
+            <!--Fifth Skill bar ends here-->
+        
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!--Skill section ends here-->
+
+<!--Contact section starts here-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span> Contact </span> me </h1>
+    
+    <div class="row">
+    
+        <div class="content">
+
+            <h3 class="title">Contact Info</h3>
+
+            <div class="info">
+                <h3><i class="bi bi-envelope"></i> omogbaiwilliams@gmail.com</h3>
+                <h3><i class="bi bi-telephone"></i> +2348116260625</h3>
+                <h3><i class="bi bi-geo-alt-fill"></i> Ilorin, Kwara State, Nigeria - 240005.</h3>
+            </div>
+
+        </div>
+
+        <form action="">
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="text" placeholder="project" class="box">
+            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button type="submit" class="btn"> Send <i class="bi bi-send"></i></button>
+        </form>
+    
+    </div>
+
+</section>
+
+<!--Contact section starts here-->
+
+<!--scroll to top button-->
+<a href="#home" class="top">
+    <img src="MediaRes/rocket.png" alt="" width="40px" height="40px">
+</a>
+
+
+
+
+
+
+<!--javascript bootstrap-->
+<script type="module">
+    import { Toast } from 'bootstrap.esm.min.js'
+  
+    Array.from(document.querySelectorAll('.toast'))
+      .forEach(toastNode => new Toast(toastNode))
+  </script>
+  
+
+<!--jquery cdn 1 link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+referrerpolicy="no-referrer"></script>
+
+<!--custom javascript file link-->
+<script src="AbijahWilliams.js"></script>
 </body>
- 
 </html>
